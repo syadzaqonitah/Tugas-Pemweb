@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Form</title>
+</head>
+<body>
+    <form action="Registrasi Siswa">
+        <fieldset>
+            <h1>Form Registrasi Siswa</h1>
+            <h2>Madrasah Tsanawiyah Qotrun Nada</h2>
+            <p>
+                <h3>A. Identitas Siswa</h3>
+            </p>
+            <p>
+                <label for="Nama :">Nama :</label>
+                <input type="nama" name="Nama" placeholder="Nama Lengkap"/>
+            </p>
+            <p>
+                    <label for="Jenis Kelamin:">Jenis Kelamin :</label>
+                    <input type="radio" name="jk" value="L" checked />Laki-Laki
+                    <input type="radio" name="jk" value="P" checked />Perempuan
+            </p>
+            <p>
+                <label for="Ttl">Tempat,Tanggal Lahir :</label>
+                <input type="date" name="tempat tanggal lahir" id="tempat tanggal lahir">
+            </p>
+            <p>
+                <label>Agama:</label>
+                <select name="Agama">
+                    <option value="Islam">Islam</option>
+                    <option value="Kristen">Kristen</option>
+                    <option value="Budha">Budha</option>
+                    <option value="Hindu">Hindu</option>
+                </select>
+            </p>
+            <div>
+                <label>Alamat:</label>
+                    <div>
+                        <textarea name="Alamat" cols="30" rows="10"></textarea>
+                    </div>
+            </div>
+            <p>
+                <label for="Asal Sekolah">Asal Sekolah :</label>
+                <input type="text" name="Asal_Sekolah" placeholder="Asal Sekolah">
+            </p>
+            <tr>
+                <label for="hp">No. HP : </label>
+                <input type="text" name="No_HP" placeholder="+628**********">
+            </tr>
+            <br>
+        </br>
+            <div class="row">
+                <div class="col-sm-4">
+                    <button type="submit" name="Submit" id="Submit" class="btn btn-primary">Submit</button>
+                    <button type="reset" class="btn btn-secondary">Cancel</button>
+                </div>
+            </div>
+        </fieldset>
+    </form>
+</body>
+</html>
